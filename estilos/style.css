@@ -1,15 +1,73 @@
 @charset "UTF-8";
 
-
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
 
 :root{
     --fonte-padrao: Verdana, Tahoma, Arial, sans-serif;
-    --fonte-principal: ;
-    --fonte-secundaria: ;
+    --fonte-principal: 'Nothing You Could Do', cursive;
+    --fonte-secundaria: 'Grechen Fuemen', cursive;
 }
 
 *{
     margin: 0px;
     padding: 0px;
+}
+
+body{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.7em;
+    background-image: url('../imagens/wallhaven-x6775z.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header, footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    font-family: var(--fonte-principal);
+    font-size: 3em;
+    padding-top: 15px;
+}
+
+header > p{
+    padding-bottom: 15px;
+    font-size: 1.2em;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    box-shadow: 0px 0px 5px black;
+
+}
+
+section p{
+    padding: 12px;
+    text-align: justify;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: darkcyan;
 }
