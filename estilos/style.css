@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+
+
+:root{
+    --fonte-padrao: Verdana, Tahoma, Arial, sans-serif;
+    --fonte-principal: ;
+    --fonte-secundaria: ;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
