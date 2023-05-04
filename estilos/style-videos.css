@@ -70,10 +70,8 @@ main{
 
 }
 
-section p{
-    padding: 15px;
-    text-align: justify;
-    font-weight: bolder;
+iframe{
+    margin: auto;
 }
 
 footer{
